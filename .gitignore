@@ -2,8 +2,7 @@
 node_modules/
 
 # Build output
-dist/
-build/
+
 
 # Environment variables
 .env
@@ -23,9 +22,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Dependency and lock files (optional, if not needed)
-package-lock.json
-yarn.lock
 
 # Tests coverage
 coverage/
