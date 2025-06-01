@@ -1,12 +1,21 @@
-# React + Vite
+# 🍽️ Food Recipe App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and beautiful Food Recipe application built with **React** and **Vite**. Users can browse, create, edit, delete, and favorite recipes. All data is stored in `localStorage`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Add, edit, delete recipes
+- Mark/unmark recipes as favorite
+- Responsive UI using Tailwind CSS
+- Client-side routing using React Router DOM
+- Form validation with React Hook Form
+- Toast notifications using React Toastify
+---
+## 🧑‍💻 How to Run This Project Locally
+### 1. Clone the Repository
+```bash/terminal
+git clone https://github.com/realpuneet/FoodRecipe.git
+cd FoodRecipe
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
